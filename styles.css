@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-image: linear-gradient( #221f3b, #6f4a8e, #6886c5);
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  text-shadow: 1px 1px 2px black, 0 0 25px #b2ebf2, 0 0 5px #0f4c75;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-image: linear-gradient(#900d0d, #d32626, #ea907a, #d32626, #900d0d);
+  opacity: 0.8;
+}
+
+.red {
+  background-image: linear-gradient(#f7c5a8, #e97171, #900d0d);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.green {
+  background-image: linear-gradient(#cbeaed, #6ebfb5, #206a5d);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue {
+  background-image: linear-gradient(#bbe1fa, #3282b8, #0f4c75);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.yellow {
+  background-image: linear-gradient(#f9f7d9, #f6f578, #cdb30c);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
